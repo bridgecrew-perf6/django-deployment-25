@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+    {% block body_block%}
+
+    <h1>This is the index.html page</h1>
+    <!-- <h1>Hello and welcome to the site!</h1> -->
+    <h2>{{text_here|cut:'o'}}</h2>
+    <h3>{{number|add:'99'}}</h3>
+    <h3>{{message|upper}}</h3>
+
+    {% endblock %}
